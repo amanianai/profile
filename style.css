@@ -1,0 +1,109 @@
+body {
+  background: #ffe0b0;
+  font-family: 'Helvetica Neue';
+  color: #ffb84b;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 200px;
+}
+
+/*Typography*/
+
+h1 {
+  font-size: 36px;
+  line-height: 40px;
+  }
+
+h1.xlg {
+  text-align: center;
+  font-size: 100px;
+  line-height: 20px;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+p.lead {
+  font-size: 36px;
+  line-height: 50px;
+}
+
+
+/*links*/
+
+a {
+  color: #ffb84b;
+  text-decoration: underline;
+}
+
+/*utlities*/
+
+.center {
+  text-align: center;
+}
+.circle {
+  border-radius: 50%;
+  border: 5px solid #ffcc7e;
+}
+
+/*images*/
+
+img.center {
+  display: table;
+  margin: 0 auto;
+}
+
+/*lists*/
+
+ul {padding: 0; margin: 0;}
+ul.inline li {
+  display: inline-block;
+  margin: 0 20px;
+  font-size: 30px;
+}
+
+/*cards*/
+
+.card {
+  padding: 50px;
+  margin: 3.5% 20%;
+  border-radius: 10px;
+  border: 3px solid #ffb84b;
+  box-shadow: 10px 15px 0px #ffcc7e;
+}
+
+
+/*responsive styles*/
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h1.xlg {
+    font-size: 40px;
+  }
+}
